@@ -1,12 +1,13 @@
 ---
-date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - April 2018'
-url: 'https://web.northeastern.edu/scout/'
+date: '2019-08-01'
+title: 'Insurance actuary statistician'
+company: 'STAR'
+location: 'Tunis,Tunisia'
+range: 'August 2019'
+url: 'https://www.star.com.tn/index.php/fr'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Worked with a team of insurance risk management control  department :  management accounting, management control, financial control to develop internel projects.
+- Tested and implementated a model for calculating premiums and remuneration on policies (contract between insurer and insured) with SAS. 
+- Developed an algorithm to calculate mathematical provisions for "life insurance" with R and SAS.
+- Helped solidify the understanding of the SAS procedures and macros.

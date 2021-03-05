@@ -49,7 +49,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Fedi Hamdi.</h2>;
-  const three = <h3 className="big-heading"> Artificial Intelligence enthusiast</h3>;
+  const three = <h3 className="big-heading"> AI enthusiast</h3>;
   const four = (
     <p>
       I'm a statistical engineer based in Tunis, Tunisia specializing in building (and occasionally

@@ -60,7 +60,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--darkNavy);
 
     &:hover,
     &:focus {
@@ -100,7 +100,7 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--darkNavy);
       mix-blend-mode: screen;
     }
 
@@ -118,7 +118,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 500, traceSVG: { color: "#e8ede" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -132,7 +132,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python (3.7+)', 'HTML & (S)CSS', 'flask', 'Django', 'Node.js', 'SAS', 'R'];
+  const skills2 = ['Statistics', 'Probability', 'Inference', 'Machine Learning', 'Deep Learning', 'NLP', 'Finance & Economie'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +142,22 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Fedi, a statician based in Tunis, Tunisia.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy creating things that live on data, whether that be websites,
+              applications, models or anything in between. My goal is to always build
+               products that provide entirely accurate predictions of economic, financial, and health outcomes.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I graduated from{' '}
+              <a href="http://www.essai.rnu.tn">Higher School of Statistics and Information Analysis</a>. 
+              I am looking for an enriching experience both professionally and personally.
+              <p>
+              Creative, meticulous and with a great ability to manage stress and pressure,
+               I am able to work on several projects while being efficient and autonomous.
+               </p>
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -161,6 +165,10 @@ const About = () => {
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+          <p>Here are also some of my functional skills that I developped during my studies and internships:</p>
+          <ul className="skills-list">
+            {skills2 && skills2.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 

@@ -142,7 +142,7 @@ const StyledProject = styled.div`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--light-slate);
+      color: var(--gray);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
@@ -200,7 +200,7 @@ const StyledProject = styled.div`
 
     a {
       width: 100%;
-      background-color: var(--green);
+      background-color: var(--gray);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -259,7 +259,7 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
+                  fluid(maxWidth: 700, traceSVG: { color: "#e8ede" }) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }

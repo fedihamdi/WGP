@@ -1,14 +1,15 @@
 ---
 date: '3'
-title: 'OctoProfile'
+title: 'Covid-19 Dashboard'
 cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/fedihamdi/Covid-19'
+external: 'https://fedihamdi.github.io/presentations.html'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - R Shiny
+  - Tableau
+  - HTML & CSS 
+  - Javascript
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Dashboard for monitoring the evolution of the COVID-19 cases in Tunisia

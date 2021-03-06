@@ -12,4 +12,5 @@ tech:
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A web app for visualizing personalized Statistics over the German credit dataset. The dashbord is also enhanced with some machine learning models such as linear regression from an econometric standpoint and neural networks.
+potify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.

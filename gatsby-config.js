@@ -5,7 +5,7 @@ module.exports = {
     title: 'Fedi Hamdi',
     description:
       'Fedi Hamdi is a statistical engineer based in Tunis, Tunisia specializing in building (and occasionally designing) mathematical and statistical theory and methods to collect, organize, interpret, and summarize data to provide usable information. I also develop exceptional models, applications, and everything in between using machine learning and deep learning',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://fedihamdi.github.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },

@@ -1,16 +1,16 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Cancer diagnosis and classification'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/fedihamdi/Skin-Cancer-Diagnosis-and-classification-Deep-learning-model'
+external: 'https://colab.research.google.com/gist/fedihamdi/8f775d6b9eb7710b06f74ff5398485b2/skin-cancer-diagnosis-and-classification-deep-learning-model.ipynb'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
-showInProjects: true
+  - Convolutional neural network
+  - AI Data-centric 
+  - TensorFlow
+  - Scikit-Learn
+  - Image processing
+showInProjects: false
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+In this project I will try to detect 7 different classes of skin-cancer using Convolution Neural Network with keras tensorflow in backend and then analyse the result to see how the model can be useful in practical scenario.

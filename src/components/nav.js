@@ -196,7 +196,14 @@ const Nav = ({ isHome }) => {
                     href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Resume
+                    English Resume
+                  </a>
+                  <a
+                    className="resume-button"
+                    href="/Fedi_Hamdi_CV_2021.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    French Resume
                   </a>
                 </div>
               </CSSTransition>

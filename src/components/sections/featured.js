@@ -136,7 +136,7 @@ const StyledProject = styled.div`
     flex-wrap: wrap;
     position: relative;
     z-index: 2;
-    margin: 25px 0 10px;
+    margin: 25px 20px 10px;
     padding: 0;
     list-style: none;
 

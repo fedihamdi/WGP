@@ -1,7 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-
   siteMetadata: {
     title: 'Fedi Hamdi',
     description:
@@ -16,11 +15,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-162203195-1",
+        trackingId: 'UA-162203195-1',
         head: false,
         anonymize: true,
         respectDNT: true,
-        .hgfg
       },
     },
     `gatsby-plugin-react-helmet`,

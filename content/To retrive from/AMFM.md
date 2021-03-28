@@ -8,6 +8,8 @@ tech:
   - NLTK
   - Flask
   - ReactJS
+  - Heroku
+  - Netlify
 company: 'Individual project'
 showInProjects: true
 ---

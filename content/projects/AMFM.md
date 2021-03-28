@@ -1,5 +1,5 @@
 ---
-date: '2017-11-01'
+date: '2021-03-01'
 title: 'Sentiment analysis web application'
 github: ''
 external: 'https://fedisentimentapp.netlify.app'

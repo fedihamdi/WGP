@@ -8,7 +8,7 @@ tech:
   - NLTK
   - Flask
   - ReactJS
-company: 'ME'
+company: 'Individual project'
 showInProjects: true
 ---
 

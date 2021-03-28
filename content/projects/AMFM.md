@@ -1,7 +1,7 @@
 ---
 date: '2021-03-01'
 title: 'Sentiment analysis web application'
-github: ''
+github: 'https://github.com/fedihamdi/deeplearning-flask-react-app'
 external: 'https://fedisentimentapp.netlify.app'
 tech:
   - Python

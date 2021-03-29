@@ -133,7 +133,15 @@ const About = () => {
   }, []);
 
   const skills = ['Python (3.7+)', 'HTML & (S)CSS', 'flask', 'Django', 'Node.js', 'SAS', 'R'];
-  const skills2 = ['Statistics', 'Probability', 'Inference', 'Machine Learning', 'Deep Learning', 'NLP', 'Finance & Economie'];
+  const skills2 = [
+    'Statistics',
+    'Probability',
+    'Inference',
+    'Machine Learning',
+    'Deep Learning',
+    'NLP',
+    'Finance & Economie',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,22 +150,24 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Fedi, a statician based in Tunis, Tunisia.</p>
+            <p>Hello! I'm Fedi Hamdi, a statician based in Tunis, Tunisia.</p>
 
             <p>
-              I enjoy creating things that live on data, whether that be websites,
-              applications, models or anything in between. My goal is to always build
-               products that provide entirely accurate predictions of economic, financial, and health outcomes.
+              I enjoy creating things that live on data, whether that be websites, applications,
+              models or anything in between. My goal is to always build products that provide
+              entirely accurate predictions of economic, financial, and health outcomes.
             </p>
 
             <p>
               I graduated from{' '}
-              <a href="http://www.essai.rnu.tn">Higher School of Statistics and Information Analysis</a>. 
-              I am looking for an enriching experience both professionally and personally.
+              <a href="http://www.essai.rnu.tn">
+                Higher School of Statistics and Information Analysis
+              </a>
+              . I am looking for an enriching experience both professionally and personally.
               <p>
-              Creative, meticulous and with a great ability to manage stress and pressure,
-               I am able to work on several projects while being efficient and autonomous.
-               </p>
+                Creative, meticulous and with a great ability to manage stress and pressure, I am
+                able to work on several projects while being efficient and autonomous.
+              </p>
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -166,7 +176,10 @@ const About = () => {
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
-          <p>Here are also some of my functional skills that I developped during my studies and internships:</p>
+          <p>
+            Here are also some of my functional skills that I developped during my studies and
+            internships:
+          </p>
           <ul className="skills-list">
             {skills2 && skills2.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>

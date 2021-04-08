@@ -16,7 +16,7 @@ module.exports = {
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: 'UA-162203195-1',
-        head: false,
+        head: true,
         anonymize: true,
         respectDNT: true,
       },
@@ -157,12 +157,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],

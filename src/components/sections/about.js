@@ -150,7 +150,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Fedi Hamdi, a statician based in Tunis, Tunisia.</p>
+            <p>Hello! I'm Fedi Hamdi, a statician and a data scientist based in Paris, France.</p>
 
             <p>
               I enjoy creating things that live on data, whether that be websites, applications,

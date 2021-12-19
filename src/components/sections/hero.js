@@ -52,10 +52,11 @@ const Hero = () => {
   const three = <h3 className="big-heading"> AI enthusiast</h3>;
   const four = (
     <p>
-      I'm a statistical engineer and a data science student at HETIC based in Paris, France specializing in building (and occasionally
-      designing) mathematical and statistical theory and methods to collect, organize, interpret, and summarize data
-      to provide usable information. I also develop exceptional models, applications, and everything in between using 
-      machine learning and deep learning. 
+      I am a Statistician Engineer and Data Science student at HETIC (based in Paris, France)
+      specializing in building (and sometimes designing) mathematical and statistical methods and
+      algorithms to collect, organize, interpret, summarize and model data to provide usable
+      information and support decision making. I also develop exceptional algorithms, applications,
+      and everything in between using machine learning and deep learning.
     </p>
   );
   const five = (

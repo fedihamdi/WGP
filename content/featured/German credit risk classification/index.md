@@ -11,6 +11,10 @@ tech:
   - ML & Stats
   - Finance
 showInProjects: true
+tags: ['R Shiny', 'Machine Learning', 'EDA', 'Econometrics']
+draft: False
+slug: /featured/German credit risk classification
+description: abc235
 ---
 
 A web app for visualizing personalized Statistics over the German credit dataset. The dashbord is also enhanced with some machine learning models such as linear regression from an econometric standpoint and neural networks.

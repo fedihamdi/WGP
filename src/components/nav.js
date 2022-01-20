@@ -194,7 +194,7 @@ const Nav = ({ isHome }) => {
                  
                   <a
                     className="resume-button"
-                    href="/resume.pdf"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer">
                     English Resume

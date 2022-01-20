@@ -191,16 +191,18 @@ const Nav = ({ isHome }) => {
             {isMounted && (
               <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                 <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
+                  //href="/resume.pdf"
                   <a
                     className="resume-button"
-                    href="/resume.pdf"
+                    
                     target="_blank"
                     rel="noopener noreferrer">
                     English Resume
                   </a>
+                  //href="/Fedi_Hamdi_CV_2021.pdf"
                   <a
                     className="resume-button"
-                    href="/Fedi_Hamdi_CV_2021.pdf"
+                    
                     target="_blank"
                     rel="noopener noreferrer">
                     French Resume

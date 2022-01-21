@@ -161,7 +161,7 @@ const About = () => {
             <p>
               I graduated from{' '}
               <a href="http://www.essai.rnu.tn">
-                Higher School of Statistics and Information Analysis
+                Graduate School of Statistics and Information Analysis
               </a>
               . I am looking for an enriching experience both professionally and personally.
               <p>

@@ -1,6 +1,6 @@
 ---
 date: '2020-02-01'
-title: 'Data scientist : AI Engineer'
+title: 'Quantitative Risk modeler'
 company: 'Business & Decision'
 location: 'Tunis, Tunisia'
 range: 'February - July 2020'

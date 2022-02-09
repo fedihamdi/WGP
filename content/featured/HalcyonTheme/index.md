@@ -3,7 +3,7 @@ date: '1'
 title: 'Cancer diagnosis and classification'
 cover: './halcyon.png'
 github: 'https://github.com/fedihamdi/Skin-Cancer-Diagnosis-and-classification-Deep-learning-model'
-external: 'https://colab.research.google.com/gist/fedihamdi/8f775d6b9eb7710b06f74ff5398485b2/skin-cancer-diagnosis-and-classification-deep-learning-model.ipynb'
+external: 'https://colab.research.google.com/drive/18FVnMucufkyjLVXEJcti2m_RGKPP-wsa?usp=sharing'
 
 tech:
   - Convolutional neural network

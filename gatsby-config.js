@@ -5,7 +5,7 @@ module.exports = {
     title: 'Fedi Hamdi',
     description:
       'Fedi Hamdi is a statistical engineer and a data science student at HETIC based in Paris France, Specializing in building (and occasionally designing) mathematical and statistical theory and methods to collect, organize, interpret, and summarize data to provide usable information. I also develop exceptional models, applications, and everything in between using machine learning and deep learning',
-    siteUrl: 'https://fedihamdi.netlify.app/', // No trailing slash allowed!
+    siteUrl: 'https://fedihamdi.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@iamfedihamdi',
   },
@@ -17,7 +17,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: 'UA-162203195-1',
         head: true,
-        anonymize: true,
+        anonymize: false,
         respectDNT: true,
       },
     },

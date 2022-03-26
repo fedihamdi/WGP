@@ -1,16 +1,15 @@
 ---
 date: '2022-03-27'
-title: 'Analysing Car selling in USA from 1973 to 2020'
-github: 'https://github.com/fedihamdi/mini_projects_series/tree/main/Car%20selling'
-external: 'https://colab.research.google.com/drive/1-nNyiH5GD66TVBzc_LTShHxpQ5sQCCns?usp=sharing'
+title: 'Auto mailing robot with Python'
+github: 'Send Emails with Python'
 tech:
   - Python
-  - Pandas
-  - Numpy
-  - Matplotlib
+  - smtlib
+  - csv
+  - email
 
 company: 'Individual'
 showInProjects: true
 ---
 
-Finding Basic KPI from the selling car data in USA.
+How To Send Emails with Python? This is some minor work to repond to that question.

@@ -1,5 +1,5 @@
 const config = require('./src/config');
-
+//const siteUrl = process.env.URL || `https://fallback.net`
 module.exports = {
   siteMetadata: {
     title: 'Fedi Hamdi',
@@ -17,7 +17,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: 'UA-162203195-1',
         head: true,
-        anonymize: false,
+        anonymize: true,
         respectDNT: true,
       },
     },
@@ -26,51 +26,28 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
-      resolve: "gatsby-plugin-sitemap",
+      resolve: 'gatsby-plugin-sitemap',
       options: {
         query: `
         {
-          allSitePage {
-            nodes {
-              path
+          site {
+            siteMetadata {
+              siteUrl
+              description
+              title
+              image
             }
           }
-          allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
-            nodes {
-              ... on WpPost {
-                uri
-                modifiedGmt
-              }
-              ... on WpPage {
-                uri
-                modifiedGmt
+          allSitePage {
+            edges {
+              node {
+                path
+               
               }
             }
           }
         }
       `,
-        resolveSiteUrl: () => siteUrl,
-        resolvePages: ({
-          allSitePage: { nodes: allPages },
-          allWpContentNode: { nodes: allWpNodes },
-        }) => {
-          const wpNodeMap = allWpNodes.reduce((acc, node) => {
-            const { uri } = node
-            acc[uri] = node
-
-            return acc
-          }, {})
-
-          return allPages.map(page => {
-            return { ...page, ...wpNodeMap[page.path] }
-          })
-        },
-        serialize: ({ path, modifiedGmt }) => {
-          return {
-            url: path,
-            lastmod: modifiedGmt,
-          }
-        },
       },
     },
     `gatsby-plugin-robots-txt`,

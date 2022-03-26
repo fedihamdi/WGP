@@ -28,6 +28,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
+        output: `/sitemap.xml`,
+        exclude: [`/404`],
         query: `
         {
           site {
@@ -35,7 +37,7 @@ module.exports = {
               siteUrl
               description
               title
-              image
+              
             }
           }
           allSitePage {
@@ -48,6 +50,9 @@ module.exports = {
           }
         }
       `,
+        resolveSiteUrl: data => data.site.siteMetadata.siteUrl,
+        resolvePagePath: page => page.path,
+        resolvePages: data => data.allSitePage.nodes,
       },
     },
     `gatsby-plugin-robots-txt`,

@@ -9,8 +9,8 @@ tech:
   - SpaCy
   - Sickit-Learn
   - TF-IDF
-  - Naîve Bayes classification
-  - Bernoulli classification
+  - Naîve Bayes
+  - Bernoulli
 company: 'HETIC'
 showInProjects: true
 ---

@@ -5,12 +5,11 @@ github: 'https://github.com/fedihamdi/mini_projects_series/tree/main/sentiment_p
 external: 'https://colab.research.google.com/drive/1B7N6eiYY6o076KEaCkFGD1GkERasQHfK?usp=sharing'
 tech:
   - Python
-  - NLTK
-  - SpaCy
-  - Sickit-Learn
-  - TF-IDF
-  - Naîve Bayes classification
-  - Bernoulli classification
+  - Pandas
+  - Seaborn
+  - Numpy
+  - Statsmodels
+
 company: 'HETIC'
 showInProjects: true
 ---

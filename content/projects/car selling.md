@@ -1,18 +1,16 @@
 ---
 date: '2021-03-15'
-title: 'Squid Game Sentiment Analysis x Machine Learning x Colab'
-github: 'https://github.com/fedihamdi/mini_projects_series/tree/main/breast_cancer_neural_nets'
-external: 'https://colab.research.google.com/drive/1snQgaP3nqUXp9RMtMnUh6Hkg5sD1r6t5?usp=sharing'
+title: 'Analysing Car selling in USA from 1973 to 2020'
+github: 'https://github.com/fedihamdi/mini_projects_series/tree/main/Car%20selling'
+external: 'https://colab.research.google.com/drive/1-nNyiH5GD66TVBzc_LTShHxpQ5sQCCns?usp=sharing'
 tech:
   - Python
   - Pandas
   - Numpy
-  - Keras
-  - Scikit datasets
-  - Neural Networks
+  - Matplotlib
 
 company: 'Individual'
 showInProjects: true
 ---
 
-Building a neural network classifier to detetct breast cancer.
+Finding Basic KPI from the selling car data in USA.

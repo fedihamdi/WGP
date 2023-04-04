@@ -201,7 +201,7 @@ const Nav = ({ isHome }) => {
                   </a>
                   <a
                     className="resume-button"
-                    href=""
+                    href="/Fedi_Hamdi_CV.pdf"
                     target="_blank"
                     rel="noopener noreferrer">
                     French Resume

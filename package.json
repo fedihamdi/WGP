@@ -38,6 +38,7 @@
     "gatsby": "^4.10.3",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^2.11.0",
+    "gatsby-plugin-google-gtag": "^4.0.0",
     "gatsby-plugin-google-tagmanager": "^2.11.0",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-netlify": "^2.11.1",

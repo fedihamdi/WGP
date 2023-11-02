@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python (3.7+)', 'HTML & (S)CSS', 'flask', 'Django', 'Node.js', 'SAS', 'R'];
+  const skills = ['Python (3.7+)', 'R', 'Spark', 'flask', 'Django', 'SAS', 'Databricks'];
   const skills2 = [
     'Statistics',
     'Probability',
@@ -140,6 +140,8 @@ const About = () => {
     'Machine Learning',
     'Deep Learning',
     'NLP',
+    'Data analytics',
+    'API',
     'Finance & Economie',
   ];
 

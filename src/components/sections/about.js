@@ -152,23 +152,24 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Fedi Hamdi, a statician and a data scientist based in Paris, France.</p>
+            <p>Hello! I'm Fedi Hamdi, a Statistician and ML Engineer based in Paris, France.</p>
 
             <p>
-              I enjoy creating things that live on data, whether that be websites, applications,
-              models or anything in between. My goal is to always build products that provide
-              entirely accurate predictions of economic, financial, and health outcomes.
+            I specialize in crafting accurate, data-driven solutions, 
+            from websites to advanced machine learning apps and APIs, 
+            with a focus on energy, economics, finance, and health.
             </p>
 
             <p>
-              I graduated from{' '}
+            I hold a degree from{' '}
               <a href="http://www.essai.rnu.tn">
                 Graduate School of Statistics and Information Analysis
               </a>
-              . I am looking for an enriching experience both professionally and personally.
+              .  and am currently engaged in a dynamic co-op program, deploying large-scale machine learning models 
+              and algorithms to production at a leading energy company in Europe.
               <p>
-                Creative, meticulous and with a great ability to manage stress and pressure, I am
-                able to work on several projects while being efficient and autonomous.
+              Creative, detail-oriented, and adept at managing stress, 
+              I excel in handling multiple projects with efficiency and autonomy.
               </p>
             </p>
 

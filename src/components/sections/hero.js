@@ -48,15 +48,11 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Fedi Hamdi.</h2>;
-  const three = <h3 className="big-heading"> AI enthusiast</h3>;
+  const two = <h2 className="big-heading">Fedi Hamdi</h2>;
+  const three = <h4 className="medium-heading">  ML Engineer</h4>;
   const four = (
     <p>
-      I am a Statistician Engineer and Data Science student at HETIC (based in Paris, France)
-      specializing in building (and sometimes designing) mathematical and statistical methods and
-      algorithms to collect, organize, interpret, summarize and model data to provide usable
-      information and support decision making. I also develop exceptional algorithms, applications,
-      and everything in between using machine learning and deep learning.
+      Statistician and ML Engineer in Paris, specializing in analyzing, building, and deploying large-scale machine learning models and algorithms to production at a top 3 energy company in Europe.
     </p>
   );
   const five = (

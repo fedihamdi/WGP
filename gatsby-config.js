@@ -43,37 +43,37 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    //'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        output: `/sitemap.xml`,
-        exclude: [`/404`],
-        query: `
-        {
-          site {
-            siteMetadata {
-              siteUrl
-              description
-              title
+    'gatsby-plugin-sitemap',
+    // {
+    //   resolve: 'gatsby-plugin-sitemap',
+    //   options: {
+    //     output: `/sitemap.xml`,
+    //     exclude: [`/404`],
+    //     query: `
+    //     {
+    //       site {
+    //         siteMetadata {
+    //           siteUrl
+    //           description
+    //           title
 
-            }
-          }
-          allSitePage {
-            edges {
-              node {
-                path
+    //         }
+    //       }
+    //       allSitePage {
+    //         edges {
+    //           node {
+    //             path
 
-              }
-            }
-          }
-        }
-      `,
-        resolveSiteUrl: data => data.site.siteMetadata.siteUrl,
-        resolvePagePath: page => page.path,
-        resolvePages: data => data.allSitePage.nodes,
-      },
-    },
+    //           }
+    //         }
+    //       }
+    //     }
+    //   `,
+    //     resolveSiteUrl: data => data.site.siteMetadata.siteUrl,
+    //     resolvePagePath: page => page.path,
+    //     resolvePages: data => data.allSitePage.nodes,
+    //   },
+    // },
     `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,

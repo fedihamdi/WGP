@@ -1,6 +1,6 @@
 ---
 date: '2023-11-30'
-title: 'Health Guard: Smart Disease Prevention'
+title: 'Health Guard'
 cover: './breatheeasy.PNG'
 github: 'https://github.com/fedihamdi/meteodata'
 external: 'https://breatheeasyapp.onrender.com/'

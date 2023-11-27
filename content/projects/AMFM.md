@@ -11,6 +11,8 @@ tech:
   - Heroku
   - Netlify
 company: 'Individual project'
+slug: /featured/sentiment
+tags: ['Python', 'Flask', 'Machine Learning', 'NLP']
 showInProjects: true
 ---
 

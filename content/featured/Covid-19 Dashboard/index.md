@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2021-04-30'
 title: 'Covid-19 Dashboard'
 cover: './octoprofile.png'
 github: 'https://github.com/fedihamdi/Covid-19'

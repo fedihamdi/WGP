@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2021-11-30'
 title: 'German credit risk classification'
 cover: './demo.png'
 github: 'https://github.com/fedihamdi/GCRCD'

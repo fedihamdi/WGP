@@ -3,7 +3,7 @@ date: '2020-02-01'
 title: 'Quantitative Risk modeler'
 company: 'Business & Decision'
 location: 'Tunis, Tunisia'
-range: 'February - July 2020'
+range: 'January - December 2020'
 url: 'https://www.businessdecision.tn/'
 ---
 

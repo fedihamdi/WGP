@@ -1,5 +1,5 @@
 ---
-date: '2022-12-19'
+date: '2022-05-30'
 title: 'MLOps Engineer'
 company: 'JustAI'
 location: 'Montreuil, France'

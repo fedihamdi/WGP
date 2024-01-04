@@ -2,8 +2,8 @@
 date: '2023-12-01'
 title: 'Fendi my AI assistant'
 cover: './fendi.png'
-github: 'https://github.com/fedihamdi/meteodata'
-external: 'https://breatheeasyapp.onrender.com/'
+github: 'https://github.com/fedihamdi/portfolio-chat'
+external: 'https://fendibot.streamlit.app/'
 tech:
   - Python
   - Stramlit

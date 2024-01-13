@@ -14,7 +14,7 @@ showInProjects: true
 tags: ['Python', 'Flask', 'Machine Learning', 'NLP']
 draft: False
 slug: /featured/sentiment
-description: Preventive application of environmentally-related diseases, identifying high-risk areas for optimal health.
+description: Sentiment analysis web application.
 ---
 
-Revolutionizing preventive healthcare with an advanced app powered by machine learning. Identifies high-risk areas for optimal health using extensive geo-temporal data. Seamlessly integrates CI/CD for efficiency.
+This is a React application using machine learning model for sentiment analysis. This project was bootstrapped with Create React App and hosted on netlify.

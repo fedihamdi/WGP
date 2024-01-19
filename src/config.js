@@ -12,6 +12,11 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/fedi-hamdi',
     },
+
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@fedihamdi.jr',
+    },
     
   ],
 
@@ -27,6 +32,14 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Articles',
+      url: '/pensieve',
+    },
+    {
+      name: 'Archive',
+      url: '/archive',
     },
     {
       name: 'Contact',

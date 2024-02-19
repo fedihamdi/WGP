@@ -3,7 +3,7 @@ date: '2022-06-01'
 title: 'Data Scientist/Engineer'
 company: 'IPSEN pharma'
 location: 'Boulogne-Billancourt, France'
-range: 'June - December 2022'
+range: 'June - November 2022'
 url: 'https://www.ipsen.com/fr/'
 ---
 

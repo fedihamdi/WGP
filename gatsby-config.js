@@ -69,9 +69,10 @@ module.exports = {
         }
         `,
         serialize: ({ path, pageContext }) => {
+          const today = new Date().toISOString();
           return {
             url: path,
-            lastmod: pageContext?.lastMod,
+            lastmod: today || pageContext?.lastMod,
           }
         },
       },

@@ -1,7 +1,7 @@
 ---
 title: Your Data Transformation with DBT and Python
 description: Example project demonstrating how to use DBT with Python for data transformation.
-date: '2024-06-06'
+date: '2024-06-07'
 draft: false
 slug: /pensieve/dbt
 tags: ["Python", "Dev", "BDT", "Data Quality"]

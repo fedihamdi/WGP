@@ -137,7 +137,7 @@ const PensievePage = ({ location, data }) => {
           <h1 className="big-heading">Pensieve</h1>
           <p className="subtitle">
             
-              a collection of memories
+              a collection of articles
             
           </p>
         </header>

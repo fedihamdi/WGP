@@ -1,5 +1,5 @@
 const config = require('./src/config');
-//const siteUrl = process.env.URL || `https://fallback.net`
+// siteUrl = process.env.URL || `https://fedihamdi.netlify.app/`
 module.exports = {
   siteMetadata: {
     title: 'Fedi Hamdi',
@@ -49,37 +49,34 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-sitemap',
-    // {
-    //   resolve: 'gatsby-plugin-sitemap',
-    //   options: {
-    //     output: `/sitemap.xml`,
-    //     exclude: [`/404`],
-    //     query: `
-    //     {
-    //       site {
-    //         siteMetadata {
-    //           siteUrl
-    //           description
-    //           title
-
-    //         }
-    //       }
-    //       allSitePage {
-    //         edges {
-    //           node {
-    //             path
-
-    //           }
-    //         }
-    //       }
-    //     }
-    //   `,
-    //     resolveSiteUrl: data => data.site.siteMetadata.siteUrl,
-    //     resolvePagePath: page => page.path,
-    //     resolvePages: data => data.allSitePage.nodes,
-    //   },
-    // },
+    //'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+              pageContext
+            }
+          }
+        }
+        `,
+        serialize: ({ path, pageContext }) => {
+          return {
+            url: path,
+            lastmod: pageContext?.lastMod,
+          }
+        },
+      },
+    },
+    `gatsby-plugin-git-lastmod`,
     `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,

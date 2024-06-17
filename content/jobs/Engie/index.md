@@ -1,7 +1,7 @@
 ---
 date: '2022-12-19'
 title: 'Data Scientist/Engineer'
-company: 'Engie Digital'
+company: 'Engie'
 location: 'La Défense, France'
 range: 'December 2022 - January 2024'
 url: 'https://www.engie.com/en  '

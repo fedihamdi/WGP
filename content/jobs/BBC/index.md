@@ -3,7 +3,7 @@ date: '2018-07-01'
 title: 'Statistician'
 company: 'Best Brands Company'
 location: 'Tunis, Tunisia'
-range: 'July - August 2017'
+range: 'June - August 2017'
 
 ---
 

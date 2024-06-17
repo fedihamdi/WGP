@@ -3,7 +3,7 @@ date: '2019-08-01'
 title: 'Insurance actuary statistician'
 company: 'Groupama'
 location: 'Nanterre, France'
-range: 'June - October 2019'
+range: 'May - October 2019'
 url: 'https://www.groupama.fr/'
 ---
 

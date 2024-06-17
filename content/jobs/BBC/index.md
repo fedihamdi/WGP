@@ -1,7 +1,7 @@
 ---
 date: '2018-07-01'
 title: 'Statistician'
-company: 'Best Brands Company'
+company: 'BBC'
 location: 'Tunis, Tunisia'
 range: 'June - August 2017'
 

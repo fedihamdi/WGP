@@ -1,10 +1,10 @@
 ---
 date: '2019-08-01'
 title: 'Insurance actuary statistician'
-company: 'STAR'
-location: 'Tunis,Tunisia'
-range: 'August 2019'
-url: 'https://www.star.com.tn/index.php/fr'
+company: 'Groupama'
+location: 'Nanterre, France'
+range: 'June - October 2019'
+url: 'https://www.groupama.fr/'
 ---
 
 - Worked with a team of insurance risk management control  department :  management accounting, management control, financial control to develop internel projects.

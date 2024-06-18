@@ -253,3 +253,6 @@ Integrating DVC, Airflow, and MLflow with your DBT and Python workflows on Azure
 - [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
 - [Azure ML Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 - [Repo containing the code](https://github.com/fedihamdi/)
+- [Portfolio](https://fedihamdi.netlify.app/)
+
+*Fedi HAMDI*

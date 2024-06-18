@@ -11,7 +11,7 @@ tags: ["Python", "DVC", "Azure", "Airflow", "MLflow"]
 
 *Fedi HAMDI*
 
-<img src="./flow.gif" alt="Fedi HAMDI" />
+<img src="https://github.com/fedihamdi/WGP/blob/2ed103e57cda8a80ceb2e6ab021f5ac5c70f8c02/content/posts/de/flow.gif?raw=true" alt="Fedi HAMDI" />
 
 In the fast-paced world of data engineering, mastering advanced tools and leveraging the power of the cloud can significantly enhance your workflow and productivity. While DBT and Python provide a solid foundation for data transformation, integrating tools like DVC, Airflow, and MLflow on Azure can elevate your workflows to an expert level. This article will delve into using these powerful tools to create a robust, scalable, and efficient data transformation process on Azure. Let's dive into the world of DVC, Airflow, and MLflow on Azure!
 

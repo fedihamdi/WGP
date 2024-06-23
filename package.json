@@ -48,7 +48,7 @@
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-plugin-sitemap": "^6.13.1",
-    "gatsby-plugin-styled-components": "^6.10.0",
+    "gatsby-plugin-styled-components": "^6.13.1",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "^7.13.1",
     "gatsby-remark-prismjs": "^7.13.1",

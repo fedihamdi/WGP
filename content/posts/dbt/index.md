@@ -5,6 +5,18 @@ date: '2024-06-07'
 draft: false
 slug: /pensieve/dbt
 tags: ["Python", "Dev", "BDT", "Data Quality"]
+tech:
+  - Python
+  - Airflow
+  - DVC
+  - MLFlow
+  - DBT
+  - Azure
+  - Spark
+company: 'Individual'
+github: 'https://github.com/fedihamdi/'
+external: 'https://medium.com/@fedihamdi.jr'
+showInProjects: true
 ---
 
 

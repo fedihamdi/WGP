@@ -5,6 +5,18 @@ date: '2024-06-18'
 draft: false
 slug: /pensieve/de
 tags: ["Python", "DVC", "Azure", "Airflow", "MLflow"]
+tech:
+  - Python
+  - Airflow
+  - DVC
+  - MLFlow
+  - DBT
+  - Azure
+  - Spark
+company: 'Individual'
+github: 'https://github.com/fedihamdi/'
+external: 'https://medium.com/@fedihamdi.jr'
+showInProjects: true
 ---
 
 **Advanced Data Engineering Workflows on Azure with DVC, Airflow, and MLflow**

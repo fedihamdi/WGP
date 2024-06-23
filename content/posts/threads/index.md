@@ -5,6 +5,18 @@ date: '2024-06-06'
 draft: false
 slug: /pensieve/threads
 tags: ["Python", "Dev", "Multithreading"]
+tech:
+  - Python
+  - Airflow
+  - DVC
+  - MLFlow
+  - DBT
+  - Azure
+  - Spark
+company: 'Individual'
+github: 'https://github.com/fedihamdi/'
+external: 'https://medium.com/@fedihamdi.jr'
+showInProjects: true
 ---
 
 

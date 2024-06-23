@@ -5,6 +5,18 @@ date: '2024-01-11'
 draft: false
 slug: /pensieve/llms
 tags: ["LLM", "AI", "ML"]
+tech:
+  - Python
+  - LLM
+  - AI
+  - ML
+  - GenAI
+  - RAG
+  - Streamlit
+company: 'Individual'
+github: 'https://github.com/fedihamdi/'
+external: 'https://medium.com/@fedihamdi.jr'
+showInProjects: true
 ---
 
 

@@ -239,7 +239,7 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/(projects|posts)/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -254,7 +254,7 @@ export const pageQuery = graphql`
             android
             company
           }
-          html
+          
         }
       }
     }

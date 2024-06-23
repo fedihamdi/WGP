@@ -5,6 +5,18 @@ date: '2024-06-10'
 draft: false
 slug: /pensieve/dvc
 tags: ["Python", "DVC", "Version-Control"]
+tech:
+  - Python
+  - Airflow
+  - DVC
+  - MLFlow
+  - DBT
+  - Azure
+  - Spark
+company: 'Individual'
+github: 'https://github.com/fedihamdi/'
+external: 'https://medium.com/@fedihamdi.jr'
+showInProjects: true
 ---
 
 # Mastering Data Version Control with DVC: A Hands-On Guide for Data Scientists

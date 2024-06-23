@@ -40,7 +40,7 @@
     "gatsby-plugin-git-lastmod": "^0.2.1",
     "gatsby-plugin-google-analytics": "^5.10.0",
     "gatsby-plugin-google-gtag": "^5.10.0",
-    "gatsby-plugin-google-tagmanager": "^5.10.0",
+    "gatsby-plugin-google-tagmanager": "^5.13.1",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-offline": "^6.13.2",

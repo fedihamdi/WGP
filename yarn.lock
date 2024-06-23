@@ -5669,10 +5669,10 @@ gatsby-cli@^5.12.4:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^4.0.0, gatsby-core-utils@^4.12.1:
-  version "4.12.1"
-  resolved "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-4.12.1.tgz"
-  integrity sha512-YW7eCK2M6yGQerT5LkdOHLZTNYMsDvcgeDMRy0q66FWKj7twPZX428I6NaLCMeF5dYoj1HOOO0u96iNlW5jcKQ==
+gatsby-core-utils@^4.0.0, gatsby-core-utils@^4.12.1, gatsby-core-utils@^4.13.1:
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.13.1.tgz#57955316486cc85ab150922f481484bc9287205e"
+  integrity sha512-w7G6SsQr8T2q+AJ1MxvRNGocCt+wjc22MiRLj2Zi3Ijpjszbr818JxwI4+aPt8WOSHlKT5SYCHICnEvcYPm9gg==
   dependencies:
     "@babel/runtime" "^7.20.13"
     ci-info "2.0.0"
@@ -5809,14 +5809,14 @@ gatsby-plugin-netlify@^5.1.0:
     lodash.mergewith "^4.6.2"
     webpack-assets-manifest "^5.0.6"
 
-gatsby-plugin-offline@^6.10.0:
-  version "6.12.3"
-  resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-6.12.3.tgz"
-  integrity sha512-Kc2BP3PttdwtjRp17tkgsLjd6AcObK73GfL85krgOtbaC+R52u3Htagd8kgHJ+evIoIDRrnXgPk+cTuRmXTidQ==
+gatsby-plugin-offline@^6.13.2:
+  version "6.13.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-6.13.2.tgz#0d43ad476437f9b55b0548cb60b701e4b0c1a579"
+  integrity sha512-wPi9MgNQVWlYn/HZrM3rWcTym7ld98+DMdZYO9hdGafBl4cfivdFBGsFbl9NIgvYDNq8an2z0xx90wxfeGKCyQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^4.12.1"
+    gatsby-core-utils "^4.13.1"
     glob "^7.2.3"
     idb-keyval "^3.2.0"
     lodash "^4.17.21"

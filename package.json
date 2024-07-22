@@ -66,7 +66,7 @@
     "react-transition-group": "^4.4.5",
     "scrollreveal": "^4.0.9",
     "smooth-scroll": "^16.1.3",
-    "styled-components": "^6.1.11",
+    "styled-components": "^6.1.12",
     "webpack": "^5.93.0"
   },
   "devDependencies": {

@@ -134,7 +134,7 @@ const PensievePage = ({ location, data }) => {
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-heading">Pensieve</h1>
+          <h1 className="big-heading">Articles</h1>
           <p className="subtitle">
             
               a collection of articles

@@ -3,7 +3,7 @@ date: '2022-05-30'
 title: 'MLOps Engineer'
 company: 'JustAI'
 location: 'Montreuil, France'
-range: 'January - May 2022'
+range: 'September 2021 - May 2022'
 url: 'https://www.justai.co/  '
 ---
 

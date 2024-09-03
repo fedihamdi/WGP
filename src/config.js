@@ -42,6 +42,10 @@ module.exports = {
       url: '/archive',
     },
     {
+      name: 'Investments',
+      url: '/investments',
+    },
+    {
       name: 'Contact',
       url: '/#contact',
     },

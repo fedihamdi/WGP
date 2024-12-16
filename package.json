@@ -79,7 +79,7 @@
     "eslint-plugin-react": "^7.36.1",
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.9",
+    "lint-staged": "^15.2.11",
     "prettier": "^2.8.8"
   }
 }

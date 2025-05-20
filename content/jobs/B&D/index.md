@@ -1,10 +1,10 @@
 ---
 date: '2020-02-01'
 title: 'Quantitative Risk modeler'
-company: 'Business & Decision'
+company: 'Orange Business (ex B&D)'
 location: 'Tunis, Tunisia'
 range: 'January 2020 - August 2021'
-url: 'https://www.businessdecision.tn/'
+url: 'https://www.orange-business.com/fr'
 ---
 
 - Develop modern, efficient and maintainable models for a wide range of crwodfunding processes for SMEs / VSEs around the world using ML & DL models.

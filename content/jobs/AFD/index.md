@@ -3,7 +3,7 @@ date: '2025-06-16'
 title: 'Data Engineer'
 company: 'AFD'
 location: 'Paris 12, France'
-range: 'December 2024 - November 2024'
+range: 'December 2024 - Today'
 url: 'https://www.afd.fr/fr'
 ---
 

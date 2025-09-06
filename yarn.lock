@@ -6314,10 +6314,10 @@ gatsby-plugin-google-gtag@^5.14.0:
     "@babel/runtime" "^7.20.13"
     minimatch "^3.1.2"
 
-gatsby-plugin-google-tagmanager@^5.13.1:
-  version "5.13.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-5.13.1.tgz#384cf689be04e320908c63c26e1936b71a7b4898"
-  integrity sha512-n6I164KvPtl+Nx9bBpXXkb6aw1oA1GuAccswjQ5lpQqB2JG5MtcQU6hwdQlwkIVv9+VCRQSZf3mOn6zU7BDO+A==
+gatsby-plugin-google-tagmanager@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-5.15.0.tgz#fc5f4fc2a7e2d4ccff7b1e2d42622d211419d4f2"
+  integrity sha512-33hZbFMkXp3IQ8q2MYXzdczJM3NoLVENgRpErPmarkGoHLXw7sw5C6b5r/328nKpRw3MxOnkOEmBvwyJHN6IeQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     web-vitals "^1.1.2"
